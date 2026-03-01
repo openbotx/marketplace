@@ -1,0 +1,18 @@
+# general
+*.pyc
+.DS_Store
+node_modules/
+build/
+.idea/
+venv
+.env
+*.iml
+Thumbs.db
+.vscode
+__pycache__
+*.lock
+
+# automatic skills
+skills/anthropic/
+skills/openai/
+skills/antigravity/

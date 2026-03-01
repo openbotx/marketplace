@@ -1,0 +1,58 @@
+<!-- footer -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                    <img src="/assets/images/logo-mini.png" alt="OpenBotX Marketplace" class="footer-logo">
+                    <span class="brand-wordmark">OPENBOTX MARKETPLACE</span>
+                </div>
+                <p class="footer-desc">
+                    Discover and install skills for your AI assistants — browse, search, and download packages.
+                </p>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                <h6 class="footer-heading">OpenBotX</h6>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="https://github.com/openbotx/openbotx" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://github.com/openbotx/openbotx/issues" target="_blank" rel="noopener noreferrer">Issues</a></li>
+                    <li><a href="https://github.com/openbotx/openbotx/discussions" target="_blank" rel="noopener noreferrer">Discussions</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                <h6 class="footer-heading">Marketplace</h6>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="https://github.com/openbotx/openbotx-marketplace" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://github.com/openbotx/openbotx-marketplace/issues" target="_blank" rel="noopener noreferrer">Issues</a></li>
+                    <li><a href="https://github.com/openbotx/openbotx-marketplace/discussions" target="_blank" rel="noopener noreferrer">Discussions</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+                <h6 class="footer-heading">Navigate</h6>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://openbotx.ai" target="_blank" rel="noopener noreferrer">OpenBotX Website</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom py-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="mb-2 mb-md-0">
+                    Made with ❤️ by <a href="https://x.com/paulocoutinhox" target="_blank" rel="noopener noreferrer">Paulo Coutinho</a>
+                </p>
+                <p class="mb-0">
+                    &copy; {{ time.current_time_str()[:4] }} OpenBotX. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<script src="/assets/js/main.js{% if not kaktos.is_debug %}?v={{ kaktos.config.version_js_file }}{% endif %}"></script>
+
+{% include 'shared/google-analytics.html' %}

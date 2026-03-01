@@ -1,0 +1,15 @@
+sources:
+  - name: openai
+    repo: https://github.com/openai/skills
+    paths:
+      - .curated
+
+  - name: anthropic
+    repo: https://github.com/anthropics/skills
+    paths:
+      - .
+
+  - name: antigravity
+    repo: https://github.com/sickn33/antigravity-awesome-skills
+    paths:
+      - .
