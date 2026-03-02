@@ -13,3 +13,8 @@ sources:
     repo: https://github.com/sickn33/antigravity-awesome-skills
     paths:
       - .
+
+  - name: openclaw
+    repo: https://github.com/openclaw/skills
+    paths:
+      - .
